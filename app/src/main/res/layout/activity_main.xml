@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <!-- <ProgressBar
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+ -->
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/new_question"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="64dp"
+        android:text="Hello"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/new_question"
+        style="@style/solution_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/top"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:padding="4dp"
+        android:text="new problem" />
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/option1"
+            style="@style/solution_button"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="option1" />
+
+        <Button
+            android:id="@+id/option2"
+            style="@style/solution_button"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="option2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/option3"
+            style="@style/solution_button"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="option3" />
+
+        <Button
+            android:id="@+id/option4"
+            style="@style/solution_button"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="option4" />
+    </LinearLayout>
+</RelativeLayout>
