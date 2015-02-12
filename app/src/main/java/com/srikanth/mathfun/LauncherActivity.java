@@ -27,11 +27,11 @@ public class LauncherActivity extends ActionBarActivity implements View.OnClickL
         setContentView(R.layout.activity_launcher);
         mAddition = (Button) findViewById(R.id.addition);
         mSubtraction = (Button) findViewById(R.id.subtraction);
-        mDivision = (Button) findViewById(R.id.division);
+        //mDivision = (Button) findViewById(R.id.division);
         mMultiplication = (Button) findViewById(R.id.multiplication);
         mAddition.setOnClickListener(this);
         mSubtraction.setOnClickListener(this);
-        mDivision.setOnClickListener(this);
+//        mDivision.setOnClickListener(this);
         mMultiplication.setOnClickListener(this);
     }
 
@@ -44,8 +44,6 @@ public class LauncherActivity extends ActionBarActivity implements View.OnClickL
             intent.putExtra(STRING_EXTRA, SUBTRACTION);
         } else if (v.getId() == R.id.multiplication) {
             intent.putExtra(STRING_EXTRA, MULTIPLICATION);
-        } else if (v.getId() == R.id.division) {
-            intent.putExtra(STRING_EXTRA, DIVISION);
         }
         startActivity(intent);
     }

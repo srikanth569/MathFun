@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="@color/dark_gray_2"
+    android:gravity="center"
     android:orientation="vertical">
 
     <Button
@@ -27,10 +27,4 @@
         android:layout_height="@dimen/minimum_touchable_height"
         android:text="@string/multiplication" />
 
-    <Button
-        android:id="@+id/division"
-        style="@style/launcher_button"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/minimum_touchable_height"
-        android:text="@string/division" />
 </LinearLayout>
