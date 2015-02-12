@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/dark_gray_2"
     tools:context=".MainActivity">
 
     <!-- <ProgressBar
@@ -21,6 +22,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="64dp"
         android:text="Hello"
+        android:textColor="@color/white"
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textStyle="bold" />
 
