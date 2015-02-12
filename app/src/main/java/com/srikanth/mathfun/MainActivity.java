@@ -53,6 +53,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     protected void onResume() {
         super.onResume();
         setupQuestion();
+        enableSelecting();
+        setupAnswers();
     }
 
     private void setupQuestion() {
@@ -166,13 +168,13 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     private void enableSelecting() {
         mOption1.setOnClickListener(this);
-        mOption1.setBackground(getResources().getDrawable(R.drawable.launcher_background_selector));
+        mOption1.setBackground(getResources().getDrawable(R.color.blue_1));
         mOption2.setOnClickListener(this);
-        mOption2.setBackground(getResources().getDrawable(R.drawable.launcher_background_selector));
+        mOption2.setBackground(getResources().getDrawable(R.color.blue_2));
         mOption3.setOnClickListener(this);
-        mOption3.setBackground(getResources().getDrawable(R.drawable.launcher_background_selector));
+        mOption3.setBackground(getResources().getDrawable(R.color.blue_3));
         mOption4.setOnClickListener(this);
-        mOption4.setBackground(getResources().getDrawable(R.drawable.launcher_background_selector));
+        mOption4.setBackground(getResources().getDrawable(R.color.blue_4));
     }
 
 }

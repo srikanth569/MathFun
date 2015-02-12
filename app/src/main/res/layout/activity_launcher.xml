@@ -10,21 +10,27 @@
         android:id="@+id/addition"
         style="@style/launcher_button"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/minimum_touchable_height"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/blue_2"
         android:text="@string/addition" />
 
     <Button
         android:id="@+id/subtraction"
         style="@style/launcher_button"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/minimum_touchable_height"
+        android:layout_height="0dp"
+        android:background="@color/blue_3"
+        android:layout_weight="1"
         android:text="@string/subtraction" />
 
     <Button
         android:id="@+id/multiplication"
         style="@style/launcher_button"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/minimum_touchable_height"
+        android:background="@color/blue_4"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="@string/multiplication" />
 
 </LinearLayout>

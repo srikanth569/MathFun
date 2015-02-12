@@ -22,4 +22,11 @@
     <color name="dark_gray_3">#444444</color>
     <color name="very_dark_gray_1">#282828</color>
     <color name="very_dark_gray_2">#111</color>
+
+    <color name="blue_1">#00A4E4</color>
+    <color name="blue_2">#00B1E8</color>
+    <color name="blue_3">#66C0ED</color>
+    <color name="blue_4">#9BD2F2</color>
+    <color name="black">#000000</color>
+
 </resources> 
