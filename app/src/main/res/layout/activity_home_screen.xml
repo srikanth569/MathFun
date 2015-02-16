@@ -7,33 +7,33 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/addition"
+        android:id="@+id/quiz"
         style="@style/launcher_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/orange_1"
-        android:text="@string/addition"
+        android:background="@color/blue_1"
+        android:text="@string/quiz"
         android:textSize="@dimen/over_blown_text_size" />
 
     <Button
-        android:id="@+id/subtraction"
+        android:id="@+id/fastest25"
         style="@style/launcher_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/orange_2"
-        android:text="@string/subtraction"
+        android:background="@color/blue_3"
+        android:text="@string/fastest25"
         android:textSize="@dimen/over_blown_text_size" />
 
     <Button
-        android:id="@+id/multiplication"
+        android:id="@+id/practice"
         style="@style/launcher_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/orange_3"
-        android:text="@string/multiplication"
+        android:background="@color/blue_4"
+        android:text="@string/practice"
         android:textSize="@dimen/over_blown_text_size" />
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.srikanth.mathfun;
+package com.srikanth.mathfun.custom;
 
 import android.content.Context;
 import android.graphics.Canvas;

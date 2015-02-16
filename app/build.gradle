@@ -8,8 +8,9 @@ android {
         applicationId "com.srikanth.mathfun"
         minSdkVersion 16
         targetSdkVersion 21
-        versionCode 4
-        versionName "4"
+        versionCode 5
+
+        versionName "4.1"
     }
     buildTypes {
         release {

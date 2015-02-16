@@ -29,4 +29,8 @@
     <color name="blue_4">#9BD2F2</color>
     <color name="black">#000000</color>
 
+    <color name="orange_1">#F7941E</color>
+    <color name="orange_2">#F9A94B</color>
+    <color name="orange_3">#FABF78</color>
+
 </resources> 

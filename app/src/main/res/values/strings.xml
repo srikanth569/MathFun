@@ -8,4 +8,7 @@
     <string name="multiplication">Multiplication</string>
     <string name="division">Division</string>
     <string name="subtraction">Subtraction</string>
+    <string name="quiz">Quiz</string>
+    <string name="fastest25">Fastest to 20</string>
+    <string name="practice">Practice</string>
 </resources>

@@ -6,62 +6,69 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ProgressBar
+        android:id="@+id/quiz_progressbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_margin="4dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin" />
 
     <TextView
-        android:id="@+id/question"
+        android:id="@+id/quiz_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/new_question"
+        android:layout_above="@+id/quiz_new_question"
         android:layout_centerInParent="true"
         android:layout_marginBottom="64dp"
         android:text="Hello"
-        android:textSize="32sp"
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textColor="@color/white"
+        android:textSize="32sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/new_question"
+        android:id="@+id/quiz_new_question"
         style="@style/solution_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/top"
+        android:layout_above="@+id/quiz_top"
         android:layout_margin="4dp"
         android:text="Next Question" />
 
     <LinearLayout
-        android:id="@+id/top"
+        android:id="@+id/quiz_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/bottom"
+        android:layout_above="@+id/quiz_bottom"
         android:layout_gravity="bottom"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/option1"
+            android:id="@+id/quiz_option1"
             style="@style/solution_button"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:textSize="@dimen/over_blown_text_size"
             android:background="@color/blue_1"
-            android:text="option1" />
+            android:text="option1"
+            android:textSize="@dimen/over_blown_text_size" />
 
         <Button
-            android:id="@+id/option2"
+            android:id="@+id/quiz_option2"
             style="@style/solution_button"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:textSize="@dimen/over_blown_text_size"
             android:background="@color/blue_2"
-            android:text="option2" />
+            android:text="option2"
+            android:textSize="@dimen/over_blown_text_size" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/bottom"
+        android:id="@+id/quiz_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -69,25 +76,25 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/option3"
+            android:id="@+id/quiz_option3"
             style="@style/solution_button"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:textSize="@dimen/over_blown_text_size"
             android:background="@color/blue_3"
-            android:text="option3" />
+            android:text="option3"
+            android:textSize="@dimen/over_blown_text_size" />
 
         <Button
-            android:id="@+id/option4"
+            android:id="@+id/quiz_option4"
             style="@style/solution_button"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:textSize="@dimen/over_blown_text_size"
             android:background="@color/blue_4"
-            android:text="option4" />
+            android:text="option4"
+            android:textSize="@dimen/over_blown_text_size" />
     </LinearLayout>
 </RelativeLayout>
